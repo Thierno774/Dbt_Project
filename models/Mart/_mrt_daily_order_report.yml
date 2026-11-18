@@ -1,0 +1,10 @@
+version: 2 
+
+models:
+  - name: mrt_daily_order_report 
+    description: This models contains the informations about the reportt models 
+
+    columns:
+      - name: order_id
+        description: this is a unique identifier for the order 
+        

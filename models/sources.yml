@@ -1,0 +1,14 @@
+version: 2 
+
+sources:
+  - name:  projet_file_rouge 
+    schema: projet_file_rouge
+    tables:
+      - name: order 
+      - name: order_item 
+      - name: payement 
+      - name: product 
+      - name: seller 
+      - name: subscriptions 
+      - name:  user 
+      - name: feedback 
