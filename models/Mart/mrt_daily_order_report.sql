@@ -14,4 +14,4 @@ SELECT
   COALESCE(AVG(average_feedback_score),0) AS average_feedback_score,
   COALESCE(AVG(total_order_amount),0) AS average_amount_spent_per_order
 FROM {{ref('int_sales_database__order')}} 
-GROUP BY order_date, state
+GROUP BY ordering_date, state
