@@ -7,7 +7,7 @@
 
 
 SELECT 
-  DATE(order_created_date) AS order_date, 
+  DATE(order_created_date) AS ordering_date, 
   user_city AS state , 
   COALESCE(COUNT(DISTINCT order_id),0) AS total_orders,
     COALESCE(AVG(total_items),0) AS average_items_per_orders,
